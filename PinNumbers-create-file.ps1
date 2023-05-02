@@ -1,0 +1,1 @@
+for ($num = 0 ; $num -le 1000 ; $num++){ "$num, " | Out-File -FilePath "c:\Users\ColanHaisell\Repo-Local\Pins.txt" -NoNewLine -Append}
